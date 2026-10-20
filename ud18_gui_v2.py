@@ -534,7 +534,8 @@ class UD18App:
             label, unit = LABELS[index], UNITS[index]
             values = self.stats.get(key)
             missing = MISSING_TEMPERATURE if key == "temperature" else "—"
-            formatted = [f"{x:.3f}".replace(".", ",") for x in values] if values else [missing] * 3
+            decimals = 2 if key == "voltage" else 3
+            formatted = [f"{x:.{decimals}f}".replace(".", ",") for x in values] if values else [missing] * 3
             self.table.item(key, values=(f"{label} ({unit})", *formatted))
         self.info.set(f"Statistik: {self.samples} Messwerte · arithmetischer Mittelwert")
 
