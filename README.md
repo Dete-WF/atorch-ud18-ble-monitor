@@ -13,6 +13,7 @@ Eine deutschsprachige Tkinter-Oberfläche zur Anzeige und CSV-Aufzeichnung von M
 - Automatische Suche nach einem UD18 und Wiederverbindungsversuche
 - Optionaler Demo-Modus mit simulierten Messwerten und simuliertem Zähler-Reset
 - Nach Bestätigung einzelne BLE-Befehle zum Zurücksetzen von Kapazität, Energie und Messzeit
+- Mitgeliefertes Projekticon `UD18.ico` für das Anwendungsfenster
 
 Die BLE-Kommunikation, Wiederverbindung und Reset-Befehle sind noch nicht hardwareseitig verifiziert. Die Unterstützung anderer Gerätemodelle ist nicht bestätigt. Das Programm bestätigt nicht, ob das Gerät einen gesendeten Reset-Befehl tatsächlich ausgeführt hat; kontrollieren Sie die Zähler am Gerät.
 
@@ -72,7 +73,7 @@ Der Decoder verarbeitet 36-Byte-Messpakete mit Header `FF 55`, Typ `01 03` und P
 - [UD18-Datenkarte und Reset-Befehle bei msillano](https://github.com/msillano/UD18-protocol-and-node-red/blob/master/UD18_protocol.txt)
 - [Temperaturbereich laut UD18-Übersicht](https://lygte-info.dk/review/USBmeter%20USB%20tester%20Atorch%20UD18%20(Hidance)%20UK.html)
 
-Die Protokollquellen dienen als technische Referenzen; dieses Projekt enthält keine mitgelieferte Icon-Datei. Das CursedHardware-Referenzprojekt weist eine MIT-Lizenz aus. Für msillanos Protokolldatei war im verlinkten Projekt keine Lizenzdatei ausgewiesen. Es werden hier Quellen und Protokollinformationen referenziert, nicht deren Quellcode oder vollständige Dokumentation übernommen. Die Rechte der Quellen und Abhängigkeiten bleiben unberührt.
+Die Protokollquellen dienen als technische Referenzen. Das mitgelieferte `UD18.ico` wurde eigens für dieses Projekt erstellt und enthält keine übernommenen Fremd-Icons. Das CursedHardware-Referenzprojekt weist eine MIT-Lizenz aus. Für msillanos Protokolldatei war im verlinkten Projekt keine Lizenzdatei ausgewiesen. Es werden hier Quellen und Protokollinformationen referenziert, nicht deren Quellcode oder vollständige Dokumentation übernommen. Die Rechte der Quellen und Abhängigkeiten bleiben unberührt.
 
 ## Tests und Hardwarestatus
 

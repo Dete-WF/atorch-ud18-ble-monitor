@@ -3,7 +3,7 @@
 ## Start unter Windows
 
 1. Python ab Version 3.10 mit Tkinter installieren. Bei der Windows-Installation „Add Python to PATH“ aktivieren.
-2. `ud18_gui_v2.py` in einen eigenen Ordner legen. Eine vorhandene `UD18.ico` kann daneben bleiben.
+2. `ud18_gui_v2.py` und das mitgelieferte `UD18.ico` im selben Ordner belassen. Das Icon wird beim Start automatisch für das Programmfenster verwendet.
 3. Im Datei-Explorer diesen Ordner öffnen, in die Adresszeile `powershell` eingeben und Enter drücken.
 4. Einmalig die benötigten Pakete installieren:
 
