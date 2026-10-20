@@ -1,0 +1,34 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test and tool artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+test_*.py
+*_test.py
+*.log
+
+# Local settings and secrets
+.vscode/
+.idea/
+.env
+.env.*
+
+# Measurements and local CSV data
+Messdaten/
+*.csv
+
+# Local test outputs
+test-output/
+test-results/
